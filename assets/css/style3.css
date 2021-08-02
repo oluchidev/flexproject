@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(53, 51, 51);
+    background-color: rgb(255, 255, 255);
+}
+
+.pricing{
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+    background-color: rgba(235, 235, 235, 0.356);
+}
+
+.price-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.price-des{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgb(126, 121, 121);
+    font-weight: bold;
+}
+
+.price-btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* gap: 2px; */
+    margin-top: 20px;
+}
+
+
+
+.btn{
+    padding: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    width: 170px;
+    text-align: center;
+    border: none;
+    background-color: rgba(233, 225, 225, 0.829);
+}
+
+.btn2{
+    color: white;
+    background-color: rgb(16, 201, 124);
+}
+
+.price-down{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+
+}
+
+
+.price-down1{
+    width: 25%;
+    height: 400px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 30px 2px rgb(219, 218, 218);
+}
+
+.price-down2{
+    height: 455px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   border: 2px solid rgb(19, 228, 165);
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+   rgba(47, 47, 47, 0.12) 0px -12px 30px, rgba(85, 85, 85, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.btn3{
+    width: 150px;
+    padding: 12px;
+    margin-top: 45px;
+    margin-left: 35px;
+    border: 2px solid rgb(155, 151, 151);
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn4{
+    width: 150px;
+    padding: 14px;
+    margin-top: 55px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: none;
+    border-color: rgb(155, 151, 151);
+    background-color: rgb(19, 228, 165); 
+}
+
+.top-des{
+    text-align: center;
+    font-size: 15px;
+}
+
+.rec{
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    background-color: orange;
+}
+
+.para{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    color: rgb(110, 107, 107);
+}
+
+.ptag{
+   
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.dola{
+    position: absolute;
+    top: 378px;
+    margin-left: 33px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cirle{
+    width: 12px;
+    height: 12px;
+}
